@@ -1,0 +1,20 @@
+pkgbase = kfilemetadata-frameworks
+	pkgdesc = A library for extracting file metadata
+	pkgver = 5.0.1
+	pkgrel = 1
+	url = https://projects.kde.org/projects/kde/kdelibs/kfilemetadata
+	arch = i686
+	arch = x86_64
+	license = LGPL
+	makedepends = extra-cmake-modules
+	depends = kservice
+	depends = karchive
+	depends = exiv2
+	depends = poppler-qt5
+	depends = taglib
+	depends = ffmpeg
+	depends = ebook-tools
+	source = http://download.kde.org/stable/plasma/5.0.1/kfilemetadata-5.0.1.tar.xz
+
+pkgname = kfilemetadata-frameworks
+
